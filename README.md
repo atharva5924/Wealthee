@@ -19,6 +19,19 @@ An AI-powered full-stack investment platform with user authentication, dynamic p
 
 ---
 
+## 🤖 AI Usage in GripInvest
+
+GripInvest leverages advanced AI capabilities to enhance the investment experience by providing intelligent insights and personalized recommendations:
+
+- **Password Strength Analysis:** During user signup, AI analyzes password strength using the Hugging Face API to promote better security with real-time feedback.
+- **Personalized Product Recommendations:** AI models recommend investment products tailored to each user’s risk appetite, age, and financial goals, enabling smarter investment decisions.
+- **Portfolio Insights and Risk Analysis:** Users receive AI-generated insights into their portfolio diversification, risk distribution, and expected returns for improved portfolio management.
+- **Error Log Summarization:** AI analyzes recent transaction error logs to identify patterns and provide actionable recommendations for system reliability improvements.
+
+These AI-driven features utilize external AI services via APIs to deliver a more dynamic, user-centric platform.
+
+---
+
 ## 📁 Tech Stack
 
 - **Frontend:** React, Tailwind CSS, React Router, React Query, React Hook Form, Vite
@@ -125,6 +138,22 @@ To seed manually (inside backend container):
 docker-compose exec backend sh
 node seeds/seed.js # or run your specific seed command
 ```
+
+---
+
+## 📄 Database Schema
+
+This project uses predefined SQL schemas for all tables to ensure data consistency and integrity.
+
+- The database schema includes tables for `users`, `investment_products`, `investments`, and `transaction_logs`.
+- The full SQL schema definitions are part of the backend initialization script located in `config/database.js` which creates tables if they do not exist.
+- Key schema features:
+  - User management with role-based access (`users` table)
+  - Detailed investment product catalog (`investment_products` table)
+  - User investments with transaction history (`investments` table)
+  - Comprehensive API transaction logging (`transaction_logs` table)
+
+For complete clarity, see the schema code in [`config/database.js`](./backend/config/database.js).
 
 ---
 
