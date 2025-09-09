@@ -8,7 +8,7 @@ An AI-powered full-stack investment platform with user authentication, dynamic p
 
 ## Watch Demo video :- 
 
-[Watch the video on Google Drive](https://drive.google.com/file/d/1pwjcZbnt9LUFZHhYAgnXlLwYSfPuPMSS/view?usp=sharing)
+[Watch the video](https://drive.google.com/file/d/1pwjcZbnt9LUFZHhYAgnXlLwYSfPuPMSS/view?usp=sharing)
 
 ---
 
