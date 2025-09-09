@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output/coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / temp files
+*.tmp
+*.swp
+
+# Docker
+*.pid
+
+# Ignore test coverage reports
+coverage/
+*.lcov
+
+# Optional: Ignore built files or dist if using a build step
+dist/
+build/
+
+# Ignore VSCode settings (optional if you use editors)
+.vscode/
