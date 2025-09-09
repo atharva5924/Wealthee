@@ -257,33 +257,56 @@ Browse available investment products with filtering.
 ![Products1](./screenshots/productsPage1.png)
 
 ![Products2](./screenshots/productsPage2.png)
+
 ---
 
 ### 💼 Investments
 
 Track and manage your investments.  
 
-![Investments](./screenshots/investmentsPage1.png)
+Portfolio Overview
+![Investments1](./screenshots/investmentsPage1.png)
 
+My Investments
+![Investments1](./screenshots/investmentsPage2.png)
+
+AI Insights
+![Investments1](./screenshots/investmentsPage3.png)
 
 ---
 
 ### 📋 Transaction Logs
-View detailed logs of API activity and errors.  
-![Transaction Logs](./screenshots/transactionLogs1.png)
+
+View detailed logs of API activity and errors.
+
+![Transaction Logs1](./screenshots/transactionLogs1.png)
+
+![Transaction Logs2](./screenshots/transactionLogs2.png)
 
 ---
 
 ### 👤 Profile
+
 Manage your user profile and risk preferences.  
+
 ![Profile](./screenshots/profilePage.png)
 
 ---
 
 ### 🛠️ Admin Products
-Admin panel to create/update products.  
-![Admin Products](./screenshots/adminProducts.png)
 
+Admin panel to create/update/delete products.  
+
+![Admin Products](./screenshots/adminProducts1.png)
+
+Create Products
+![Admin Products](./screenshots/adminProducts2.png)
+
+Edit Products
+![Admin Products](./screenshots/adminProducts3.png)
+
+Delete Products
+![Admin Products](./screenshots/adminProducts4.png)
 
 ---
 
