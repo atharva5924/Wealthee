@@ -204,44 +204,81 @@ npm test
 ## 🧩 Screenshots
 
 ### 🏠 Landing Page
+
 Welcome page introducing GripInvest.  
+
 ![Landing](./screenshots/landing.png)
 
+---
+
 ### 🧑‍💼 Login Page
+
 User login interface for authenticated access.  
+
 ![Login](./screenshots/loginPage.png)
 
+---
+
 ### 📝 Signup Page
+
 User registration screen with password feedback.  
+
 ![Signup](./screenshots/signupPage.png)
 
+---
+
 ### 🔑 Forgot Password
+
 Request password reset via email.  
+
 ![Forgot Password](./screenshots/forgotPassword.png)
+
+
+---
 
 ### 🔒 Reset Password
 Set a new password using email link token.  
 ![Reset Password](./screenshots/resetPassword.png)
 
+---
+
 ### 📊 Dashboard
+
 Your personalized investment portfolio overview.  
+
 ![Dashboard](./screenshots/dashboard.png)
 
+---
+
 ### 📦 Products
+
 Browse available investment products with filtering.  
-![Products](./screenshots/productsPage1.png)
+
+![Products1](./screenshots/productsPage1.png)
+
+![Products2](./screenshots/productsPage2.png)
+---
 
 ### 💼 Investments
+
 Track and manage your investments.  
+
 ![Investments](./screenshots/investmentsPage1.png)
+
+
+---
 
 ### 📋 Transaction Logs
 View detailed logs of API activity and errors.  
 ![Transaction Logs](./screenshots/transactionLogs1.png)
 
+---
+
 ### 👤 Profile
 Manage your user profile and risk preferences.  
 ![Profile](./screenshots/profilePage.png)
+
+---
 
 ### 🛠️ Admin Products
 Admin panel to create/update products.  
