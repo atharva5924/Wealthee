@@ -132,27 +132,35 @@ node seeds/seed.js # or run your specific seed command
 
 ### Authentication
 
-| Method | Endpoint             | Description             |
-| ------ | -------------------- | ----------------------- |
-| POST   | `/api/auth/register` | Register new user       |
-| POST   | `/api/auth/login`    | Login user              |
-| GET    | `/api/auth/profile`  | Get user profile (Auth) |
+| Method | Endpoint                   | Description                  |
+| ------ | -------------------------- | ---------------------------- |
+| POST   | `/api/auth/register`       | Register new user            |
+| POST   | `/api/auth/login`          | Login user                    |
+| GET    | `/api/auth/profile`        | Get user profile (Auth)       |
+| POST   | `/api/auth/request-password-reset` | Request a password reset link |
+| POST   | `/api/auth/reset-password` | Reset password using token    |
+
 
 ### Products
 
-| Method | Endpoint            | Description                         |
-| ------ | ------------------- | ----------------------------------- |
-| GET    | `/api/products`     | List products (filter & pagination) |
-| GET    | `/api/products/:id` | Get product by ID                   |
-| POST   | `/api/products`     | Create new product (Admin only)     |
+| Method | Endpoint                           | Description                                   |
+| ------ | ---------------------------------- | --------------------------------------------- |
+| GET    | `/api/products`                    | List products (filter & pagination)           |
+| GET    | `/api/products/:id`                | Get product by ID                             |
+| POST   | `/api/products`                    | Create new product (Admin only)               |
+| GET    | `/api/products/recommendations`    | Get personalized product recommendations (Auth) |
+| PUT    | `/api/products/:id`                | Update existing product (Admin only)          |
+| DELETE | `/api/products/:id`                | Delete product (Admin only)                   |
+| POST   | `/api/products/ai-generate-description` | Generate AI-based product description (Admin only) |
 
 ### Investments
 
-| Method | Endpoint                     | Description           |
-| ------ | ---------------------------- | --------------------- |
-| POST   | `/api/investments`           | Create investment     |
-| GET    | `/api/investments`           | List user investments |
-| GET    | `/api/investments/portfolio` | Get portfolio summary |
+| Method | Endpoint                       | Description               |
+| ------ | ------------------------------ | ------------------------- |
+| POST   | `/api/investments`             | Create investment         |
+| GET    | `/api/investments`             | List user investments     |
+| GET    | `/api/investments/portfolio`   | Get portfolio summary     |
+| GET    | `/api/investments/portfolio/insights` | Get detailed portfolio insights |
 
 ### Transaction Logs
 
