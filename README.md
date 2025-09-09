@@ -237,7 +237,9 @@ Request password reset via email.
 ---
 
 ### 🔒 Reset Password
+
 Set a new password using email link token.  
+
 ![Reset Password](./screenshots/resetPassword.png)
 
 ---
@@ -265,12 +267,15 @@ Browse available investment products with filtering.
 Track and manage your investments.  
 
 Portfolio Overview
+
 ![Investments1](./screenshots/investmentsPage1.png)
 
 My Investments
+
 ![Investments1](./screenshots/investmentsPage2.png)
 
 AI Insights
+
 ![Investments1](./screenshots/investmentsPage3.png)
 
 ---
@@ -300,12 +305,15 @@ Admin panel to create/update/delete products.
 ![Admin Products](./screenshots/adminProducts1.png)
 
 Create Products
+
 ![Admin Products](./screenshots/adminProducts2.png)
 
 Edit Products
+
 ![Admin Products](./screenshots/adminProducts3.png)
 
 Delete Products
+
 ![Admin Products](./screenshots/adminProducts4.png)
 
 ---
