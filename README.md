@@ -6,12 +6,6 @@ An AI-powered full-stack investment platform with user authentication, dynamic p
 
 ---
 
-## 🚀 Live Demo
-
-_(Add your deployed URLs here if any)_
-
----
-
 ## 🌟 Features
 
 - 🔐 **JWT-based Auth**: Secure login and signup with token authentication
@@ -202,6 +196,8 @@ npm test
 ---
 
 ## 🧩 Screenshots
+
+*Note: The data shown in the screenshots below is pre-inserted for demonstrating features and ensuring a clear visual representation.*
 
 ### 🏠 Landing Page
 
