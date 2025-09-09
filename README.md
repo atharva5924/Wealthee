@@ -229,15 +229,15 @@ Your personalized investment portfolio overview.
 
 ### 📦 Products
 Browse available investment products with filtering.  
-![Products](./screenshots/productsPage.png)
+![Products](./screenshots/productsPage1.png)
 
 ### 💼 Investments
 Track and manage your investments.  
-![Investments](./screenshots/investmentsPage.png)
+![Investments](./screenshots/investmentsPage1.png)
 
 ### 📋 Transaction Logs
 View detailed logs of API activity and errors.  
-![Transaction Logs](./screenshots/transactionLogs.png)
+![Transaction Logs](./screenshots/transactionLogs1.png)
 
 ### 👤 Profile
 Manage your user profile and risk preferences.  
