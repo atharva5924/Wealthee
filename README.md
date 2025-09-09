@@ -34,7 +34,7 @@ An AI-powered full-stack investment platform with user authentication, dynamic p
 ### 1. Clone the repo (frontend and backend)
 
 ```bash
-git clone https://github.com/atharva5924/InventoryPilot-frontend.git
+git clone https://github.com/atharva5924/gripinvest_winter_internship_backend.git
 ```
 
 ---
