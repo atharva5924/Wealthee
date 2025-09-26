@@ -230,6 +230,22 @@ export class InvestmentController {
         [userId]
       );
 
+      if (!investments || investments.length === 0) {
+        return res.json({
+          success: true,
+          data: {
+            message: "No active investments",
+            totalValue: 0,
+            expectedReturns: 0,
+            totalGains: 0,
+            averageYield: 0,
+            riskDistribution: {},
+            portfolioStrategy: "",
+            riskWarnings: [],
+          },
+        });
+      } 
+
       const userProfile = {
         risk_appetite: req.user.risk_appetite,
         userId: userId,

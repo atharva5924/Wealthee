@@ -9,8 +9,8 @@ const Dashboard = () => {
   const { data: portfolioData, isLoading } = useQuery({
     queryKey: ["portfolio"],
     queryFn: investmentService.getPortfolio,
-    refetchInterval: 30000, 
-    staleTime: 0, 
+    refetchInterval: 30000,
+    staleTime: 0,
     refetchOnWindowFocus: true,
   });
 
@@ -127,7 +127,23 @@ const Dashboard = () => {
         ))}
       </div>
 
-      {inneraiInsights ? (
+      {portfolioData?.data?.activeInvestments === 0 ? (
+        <div className="bg-white shadow rounded-lg p-6 text-center">
+          <h3 className="text-lg font-medium text-gray-900 mb-4">
+            No Investments Yet
+          </h3>
+          <p className="mb-4 text-gray-600">
+            You haven’t made any investments. Start exploring products to build
+            your portfolio.
+          </p>
+          <button
+            onClick={() => (window.location.href = "/products")}
+            className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+          >
+            Explore Products
+          </button>
+        </div>
+      ) : inneraiInsights ? (
         <div className="bg-white shadow rounded-lg p-6">
           <div className="flex items-center justify-center mb-4">
             <div className="flex-shrink-0">
@@ -144,7 +160,6 @@ const Dashboard = () => {
               </p>
             </div>
           </div>
-
           {inneraiInsights.riskDistribution && (
             <div className="mb-4">
               <h4 className="text-sm font-medium text-gray-700 mb-2">
