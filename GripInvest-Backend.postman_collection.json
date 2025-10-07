@@ -1,8 +1,8 @@
 {
   "info": {
-    "name": "GripInvest Backend API",
-    "_postman_id": "gripinvest-backend-collection",
-    "description": "Postman collection for GripInvest Winter Internship Backend APIs.",
+    "name": "Wealthee Backend API",
+    "_postman_id": "Wealthee-backend-collection",
+    "description": "Postman collection for Wealthee Winter Internship Backend APIs.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -342,3 +342,4 @@
     }
   ]
 }
+
