@@ -53,7 +53,7 @@ These AI-driven features utilize external AI services via APIs to deliver a more
 ### 1. Clone the repo (frontend and backend)
 
 ```bash
-git clone https://github.com/atharva5924/gripinvest_winter_internship_backend.git
+git clone https://github.com/atharva5924/Wealthee.git
 ```
 
 ---
