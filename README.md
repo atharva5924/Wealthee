@@ -1,4 +1,4 @@
-# 📈 GripInvest Mini Investment Platform
+# 📈 Wealthee Mini Investment Platform
 
 An AI-powered full-stack investment platform with user authentication, dynamic product recommendations, portfolio insights, transaction logging, and secure investment management.
 
