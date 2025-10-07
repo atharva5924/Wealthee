@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
                 <Link to="/dashboard" className="text-xl font-bold text-blue-600">
-                  GripInvest
+                  Wealthee
                 </Link>
               </div>
 

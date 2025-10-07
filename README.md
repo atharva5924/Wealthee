@@ -1,4 +1,4 @@
-# 📈 Wealthee : Mini Investment Platform
+# 📈 GripInvest Mini Investment Platform
 
 An AI-powered full-stack investment platform with user authentication, dynamic product recommendations, portfolio insights, transaction logging, and secure investment management.
 
@@ -25,9 +25,9 @@ An AI-powered full-stack investment platform with user authentication, dynamic p
 
 ---
 
-## 🤖 AI Usage in GripInvest
+## 🤖 AI Usage in Wealthee
 
-GripInvest leverages advanced AI capabilities to enhance the investment experience by providing intelligent insights and personalized recommendations:
+Wealthee leverages advanced AI capabilities to enhance the investment experience by providing intelligent insights and personalized recommendations:
 
 - **Password Strength Analysis:** During user signup, AI analyzes password strength using the Hugging Face API to promote better security with real-time feedback.
 - **Personalized Product Recommendations:** AI models recommend investment products tailored to each user’s risk appetite, age, and financial goals, enabling smarter investment decisions.
@@ -73,7 +73,7 @@ PORT=5000
 DB_HOST=mysql
 DB_USER=root
 DB_PASSWORD=Atha@7138
-DB_NAME=gripinvest_db
+DB_NAME=wealthee_db
 JWT_SECRET=mySuperSecretKey
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
@@ -244,7 +244,7 @@ npm test
 
 ### 🏠 Landing Page
 
-Welcome page introducing GripInvest.  
+Welcome page introducing Wealthee.  
 
 ![Landing](./screenshots/landing.png)
 

@@ -15,9 +15,9 @@ const transporter = nodemailer.createTransport({
 
 export const sendPasswordResetEmail = async (toEmail, resetUrl, userName) => {
   const mailOptions = {
-    from: `"GripInvest Support" <${process.env.EMAIL_USER}>`,
+    from: `"Wealthee Support" <${process.env.EMAIL_USER}>`,
     to: toEmail,
-    subject: "GripInvest Password Reset Request",
+    subject: "Wealthee Password Reset Request",
     html: `
       <p>Hi ${userName || "User"},</p>
       <p>We received a request to reset your password.</p>
@@ -25,7 +25,7 @@ export const sendPasswordResetEmail = async (toEmail, resetUrl, userName) => {
       <p><a href="${resetUrl}">${resetUrl}</a></p>
       <p>If you did not request this, please ignore this email.</p>
       <br/>
-      <p>Thank you,<br/>GripInvest Team</p>
+      <p>Thank you,<br/>Wealthee Team</p>
     `,
   };
 

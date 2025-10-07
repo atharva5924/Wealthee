@@ -143,7 +143,7 @@ export const AuthProvider = ({ children }) => {
             type: "LOGIN_SUCCESS",
             payload: { user, token },
           });
-          toast.success(`Welcome to GripInvest, ${user.first_name}!`);
+          toast.success(`Welcome to Wealthee, ${user.first_name}!`);
           return { success: true, passwordAnalysis };
         } else {
           throw new Error(profileResponse.message || "Failed to fetch profile");

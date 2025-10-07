@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              GripInvest
+              Wealthee
             </h1>
             <p className="mt-6 text-xl text-blue-100 max-w-3xl mx-auto">
               Your AI-powered investment platform. Start building your portfolio
@@ -40,7 +40,7 @@ const Landing = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900">
-              Why Choose GripInvest?
+              Why Choose Wealthee?
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               Advanced features powered by AI to help you make smarter

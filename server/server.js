@@ -34,7 +34,7 @@ app.get("/health", async (req, res) => {
     res.status(200).json({
       status: "healthy",
       timestamp: new Date().toISOString(),
-      service: "gripinvest-backend",
+      service: "Wealthee-backend",
       version: "1.0.0",
       database: dbStatus,
     });
@@ -43,7 +43,7 @@ app.get("/health", async (req, res) => {
     res.status(503).json({
       status: "unhealthy",
       timestamp: new Date().toISOString(),
-      service: "gripinvest-backend",
+      service: "Wealthee-backend",
       database: dbStatus,
       error: error.message,
     });
